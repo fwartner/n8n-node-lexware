@@ -41,3 +41,4 @@ export async function executePostingCategories(
   return items.map((data) => ({ json: data }));
 }
 
+

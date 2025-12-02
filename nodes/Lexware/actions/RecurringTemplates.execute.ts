@@ -49,3 +49,4 @@ export async function executeRecurringTemplates(
   return items.map((data) => ({ json: data }));
 }
 
+

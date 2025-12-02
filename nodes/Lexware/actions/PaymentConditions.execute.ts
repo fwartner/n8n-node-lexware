@@ -41,3 +41,4 @@ export async function executePaymentConditions(
   return items.map((data) => ({ json: data }));
 }
 
+

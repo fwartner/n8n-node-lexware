@@ -9,7 +9,7 @@ A comprehensive n8n community node package for seamless Lexware API integration.
 ## 🚀 **Now Available on npm!**
 
 ```bash
-npm install n8n-nodes-lexware
+npm install n8n-nodes-lexware-fork
 ```
 
 ### 📚 Resources

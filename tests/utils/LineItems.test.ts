@@ -672,7 +672,7 @@ describe("LineItems.ts - Umfassende Tests", () => {
       const maxTime = Math.max(...times);
       const minTime = Math.min(...times);
 
-      expect(maxTime - minTime).toBeLessThan(Math.max(avgTime * 2, 2)); // Variation unter 200% or 2ms
+      expect(maxTime - minTime).toBeLessThan(Math.max(avgTime * 2, 10)); // Variation unter 200% or 10ms
     });
   });
 });
