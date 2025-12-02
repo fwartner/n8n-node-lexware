@@ -11,7 +11,6 @@ All GitHub configuration files have been successfully created based on the n8n-n
 ├── ISSUE_TEMPLATE/        # 5 issue templates
 ├── CODE_OF_CONDUCT.md     # Community guidelines
 ├── CONTRIBUTING.md        # Developer guide
-├── dependabot.yml         # Automated dependency updates
 ├── FUNDING.yml            # Sponsorship configuration
 ├── pull_request_template.md
 ├── SECURITY.md            # Security policy
@@ -52,12 +51,6 @@ All GitHub configuration files have been successfully created based on the n8n-n
 - **SECURITY.md** - Security policy and reporting
 - **FUNDING.yml** - Sponsorship links
 
-### 🤖 Automation
-
-- **dependabot.yml** - Weekly dependency updates
-  - NPM packages (Mondays 09:00 Europe/Berlin)
-  - GitHub Actions updates
-
 ## 🚀 Next Steps
 
 ### 1. Configure GitHub Repository Settings
@@ -92,13 +85,6 @@ Enable:
   - Select: build (18.x)
   - Select: build (20.x)
 ☑ Require branches to be up to date before merging
-```
-
-#### Enable Dependabot
-```
-Settings → Security → Code security and analysis
-→ Enable Dependabot alerts
-→ Enable Dependabot security updates
 ```
 
 ### 2. Update Repository Information
