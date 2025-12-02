@@ -19,7 +19,6 @@ This directory contains all GitHub-specific configuration files for the n8n-node
 │   └── config.yml         # Issue template configuration
 ├── CODE_OF_CONDUCT.md     # Community code of conduct
 ├── CONTRIBUTING.md        # Contributing guidelines
-├── dependabot.yml         # Dependabot configuration
 ├── FUNDING.yml            # Sponsorship/funding information
 ├── pull_request_template.md # Pull request template
 ├── SECURITY.md            # Security policy
@@ -95,14 +94,6 @@ See [`SECURITY.md`](SECURITY.md) for:
 - Security best practices
 - Contact information
 
-## 🤖 Dependabot
-
-Automated dependency updates are configured for:
-- **NPM packages**: Weekly updates on Mondays
-- **GitHub Actions**: Weekly updates on Mondays
-- Dependencies are grouped by type (dev/production)
-- Updates are automatically assigned and labeled
-
 ## 💰 Funding
 
 Sponsorship information is configured in `FUNDING.yml`:
@@ -133,10 +124,6 @@ The PR template includes:
    - Protect `main` branch
    - Require status checks to pass
    - Require PR reviews
-
-4. **Enable Dependabot** (Settings → Security):
-   - Enable Dependabot alerts
-   - Enable Dependabot security updates
 
 ### Release Process
 
