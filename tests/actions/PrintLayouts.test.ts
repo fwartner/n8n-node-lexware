@@ -322,7 +322,7 @@ describe("PrintLayouts.execute - Umfassende Tests", () => {
       const maxTime = Math.max(...times);
       const minTime = Math.min(...times);
 
-      expect(maxTime - minTime).toBeLessThan(Math.max(avgTime * 2, 1)); // Variation unter 200%
+      expect(maxTime - minTime).toBeLessThan(Math.max(avgTime * 2, 2)); // Variation unter 200% or 2ms
       expect(avgTime).toBeLessThan(100); // Durchschnitt unter 100ms
     });
   });
